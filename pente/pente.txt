@@ -1,1 +1,9 @@
-
+The goal of this project is to create a functional copy of the game Pente in java, and from 
+there create animation or visuals for the game.
+I am familiar with java, but not with creating visuals so that will be the challenge of this
+project.
+Progress: 
+12/13 - Began working on the java code for the game
+12/14 - Continued
+12/15 - Portion in java seems complete, game is playable from terminal
+      - Created gitHub repository for personal projects in the furure and current work.
