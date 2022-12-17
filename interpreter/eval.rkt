@@ -1,11 +1,7 @@
 #lang racket
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; CSCI 301, Fall 2022
-;;
-;; Lab #7
 ;;
 ;; Ryan Harang
-;; W01509971
 ;;
 ;; The goal of this program is to evaluate functions and procedures in the 
 ;; procedure first style used by racket.

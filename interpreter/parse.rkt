@@ -1,11 +1,7 @@
 #lang racket
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; CSCI 301, Fall 2022
-;;
-;; Lab #8
 ;;
 ;; Ryan Harang
-;; W01509971
 ;;
 ;; The goal of this program is to work with eval.rkt to parse and evalaute 
 ;; strings of characters by first turning them into lists using the provided
