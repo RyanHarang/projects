@@ -1,1 +1,4 @@
-
+eval.rkt and parse.rkt work together to simulate racket itself.
+parse.rkt provides a grammar and eval.rkt provides the evaluation capabilities.
+Start: 11/1/2022
+Finish: 11/28/2022
