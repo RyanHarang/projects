@@ -53,7 +53,8 @@ public class board {
     public void captures(int row, int col) {        
         //vertical up
         if ((row - 3) > -1) {
-            if ((board[row - 3][col] == activePlayer) && (board[row - 2][col] == activePlayer * -1) && (board[row - 1][col] == activePlayer * -1)) {
+            if ((board[row - 3][col] == activePlayer) && (board[row - 2][col] == activePlayer * -1) && 
+            (board[row - 1][col] == activePlayer * -1)) {
                 board[row - 2][col] = 0;
                 board[row - 1][col] = 0;
                 if (activePlayer == 1) {
@@ -95,7 +96,8 @@ public class board {
         
         //horizontal right
         if ((col + 3) < 19) {
-            if ((board[row][col + 3] == activePlayer) && (board[row][col + 2] == activePlayer * -1) && (board[row][col + 1] == activePlayer * -1)) {
+            if ((board[row][col + 3] == activePlayer) && (board[row][col + 2] == activePlayer * -1) &&
+            (board[row][col + 1] == activePlayer * -1)) {
                 board[row][col + 2] = 0;
                 board[row][col + 1] = 0;
                 if (activePlayer == 1) {
@@ -109,7 +111,8 @@ public class board {
 
         //diagonal left up
         if ((row - 3) > -1 && (col - 3) > -1) {
-            if ((board[row - 3][col - 3] == activePlayer) && (board[row - 2][col - 2] == activePlayer * -1) && (board[row - 1][col - 1] == activePlayer * -1)) {
+            if ((board[row - 3][col - 3] == activePlayer) && (board[row - 2][col - 2] == activePlayer * -1) && 
+            (board[row - 1][col - 1] == activePlayer * -1)) {
                 board[row - 2][col - 2] = 0;
                 board[row - 1][col - 1] = 0;
                 if (activePlayer == 1) {
@@ -123,7 +126,8 @@ public class board {
 
         //diagonal right down
         if ((row + 3) < 19 && (col + 3) < 19) {
-            if ((board[row + 3][col + 3] == activePlayer) && (board[row + 2][col + 2] == activePlayer * -1) && (board[row + 1][col + 1] == activePlayer * -1)) {
+            if ((board[row + 3][col + 3] == activePlayer) && (board[row + 2][col + 2] == activePlayer * -1) && 
+            (board[row + 1][col + 1] == activePlayer * -1)) {
                 board[row + 2][col + 2] = 0;
                 board[row + 1][col + 1] = 0;
                 if (activePlayer == 1) {
@@ -137,7 +141,8 @@ public class board {
 
         //diagonal right up
         if ((row - 3) > -1 && (col + 3) < 19) {
-            if ((board[row - 3][col + 3] == activePlayer) && (board[row - 2][col + 2] == activePlayer * -1) && (board[row - 1][col + 1] == activePlayer * -1)) {
+            if ((board[row - 3][col + 3] == activePlayer) && (board[row - 2][col + 2] == activePlayer * -1) && 
+            (board[row - 1][col + 1] == activePlayer * -1)) {
                 board[row - 2][col + 2] = 0;
                 board[row - 1][col + 1] = 0;
                 if (activePlayer == 1) {
@@ -151,7 +156,8 @@ public class board {
 
         //diagonal left down
         if((row + 3) < 19 && (col - 3) > -1) {
-            if ((board[row + 3][col - 3] == activePlayer) && (board[row + 2][col - 2] == activePlayer * -1) && (board[row + 1][col - 1] == activePlayer * -1)) {
+            if ((board[row + 3][col - 3] == activePlayer) && (board[row + 2][col - 2] == activePlayer * -1) && 
+            (board[row + 1][col - 1] == activePlayer * -1)) {
                 board[row + 2][col - 2] = 0;
                 board[row + 1][col - 1] = 0;
                 if (activePlayer == 1) {
