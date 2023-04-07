@@ -19,7 +19,6 @@ public class pente {
             board.update(Integer.parseInt(put[0]), Integer.parseInt(put[1]));
             board.print();
         }
-
+        scan.close();
     }
-    
 }
