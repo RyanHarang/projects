@@ -189,7 +189,7 @@ public class board {
         int num, vert, hori;
 
         //check for 5-in-a-row horizontal
-        for (int i = 4; i >-1; i--) {
+        for (int i = 4; i > -1; i--) {
             num = 0;
             for (int j = 0; j < 5; j++) {
                 hori = col - i + j;
@@ -205,7 +205,7 @@ public class board {
         }
         
         //check for 5-in-a-row vertical
-        for (int i = 4; i >-1; i--) {
+        for (int i = 4; i > -1; i--) {
             num = 0;
             for (int j = 0; j < 5; j++) {
                 vert = row - i + j;
@@ -220,7 +220,7 @@ public class board {
             }
         }
         //check for 5-in-a-row diagonal: \
-        for (int i = 4; i >-1; i--) {
+        for (int i = 4; i > -1; i--) {
             num = 0;
             for (int j = 0; j < 5; j++) {
                 vert = row - i + j;
@@ -237,7 +237,7 @@ public class board {
         }
         
         //check for diagonal: /
-        for (int i = 4; i >-1; i--) {
+        for (int i = 4; i > -1; i--) {
             num = 0;
             for (int j = 0; j < 5; j++) {
                 vert = row + i - j;

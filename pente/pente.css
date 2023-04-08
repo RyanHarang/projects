@@ -1,0 +1,10 @@
+body {
+    background: #fff;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 20px [col-start]);
+    grid-template-rows: repeat(3, 20px [row-start]);
+}
+
