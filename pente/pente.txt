@@ -7,3 +7,4 @@ Progress:
 12/14 - Continued
 12/15 - Portion in java seems complete, game is playable from terminal
       - Created gitHub repository for personal projects in the furure and current work.
+04/07 - Started javascript implementation, working on makeing a visual version of pente.
