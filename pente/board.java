@@ -4,8 +4,7 @@ public class board {
     //variable to track active player
     Integer activePlayer = -1;
     //variables to track the number of captures each player has made
-    Integer p1Cap = 0;
-    Integer p2Cap = 0;
+    Integer p1Cap, p2Cap = 0;
     //variable to track if the game is over
     boolean complete = false;
 
@@ -50,7 +49,7 @@ public class board {
     }
 
     //method that will check for and initiate captures
-    public void captures(int row, int col) {        
+    private void captures(int row, int col) {        
         //vertical up
         if ((row - 3) > -1) {
             if ((board[row - 3][col] == activePlayer) && (board[row - 2][col] == activePlayer * -1) && 
@@ -172,7 +171,7 @@ public class board {
 
     //method that will check if active player has 5 in a row anywhere
     //or that a player has 5 captures
-    public boolean win(int row, int col) {
+    private boolean win(int row, int col) {
         //checks for five-in-a-row in all directions and possibilities
         //diagonal, vertical, horizontal, and up to 4 stones in each direction
         //false if game still going
@@ -185,7 +184,7 @@ public class board {
             }
         return false;
     }
-    public boolean five(int row, int col) {
+    private boolean five(int row, int col) {
         int num, vert, hori;
 
         //check for 5-in-a-row horizontal
