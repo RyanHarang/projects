@@ -2,10 +2,11 @@ body {
     background-color: #000000;
 }
 
+/* CSS for the board */
 .grid {
   /* To adjust size of boxes in the grid, adjust width and height and then change row and colum sizes */
   /* Margins center the board */
-  margin: auto auto;  
+  margin: auto auto;
   width: 720px;
   height: 720px;
   display: grid;
@@ -23,6 +24,7 @@ body {
     linear-gradient(to bottom, grey 1px, transparent 1px);
 }
 
+/* CSS for the Stones */
 .stone {
   background: linear-gradient(145deg, #f6cfa6, #000000);
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25), -2px -2px 4px 0 rgba(255, 255, 255, 0.25);
@@ -34,4 +36,43 @@ body {
 
 .white {
   background: linear-gradient(145deg, #f6cfa6, #ffffff);
+}
+
+/*
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+.column {
+  float: left;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+}
+/* CSS for the buttons */
+.menu {
+  margin: auto auto;
+}
+
+button {
+  color: #000;
+  width: 300px;
+  background: goldenrod;
+  padding: 15px 5px;
+  font-weight: bold;
+  font-size: 200%;
+  border: none;
+  border-radius: 2px;
+  margin: 10px 0;
+}
+.features:hover {
+  color: #ffffff;
+  transition: 0.3s;
 }

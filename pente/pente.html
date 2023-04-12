@@ -8,13 +8,22 @@
     <link rel="stylesheet" href="pente.css">
 </head>
 <body>
-    <div class='table'>
-        <div class='grid lines'>
-
+    
+    <div class="row">
+        <div class="table column left">
+            <div class="grid lines"> 
+    
+            </div>
         </div>
-      </div>
-
-
+        <div class="menu column right">
+            <button class="features" onclick="startGame()">Start Game</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="menu column right">
+            <button class="features" onclick="undo()">Undo</button>
+        </div>
+    </div>
     <script src="pente.js"></script>
 </body>
 </html>
