@@ -3,12 +3,16 @@ body {
 }
 
 .grid {
-    width: 720px;
-    height: 720px;
-    display: grid;
-    grid-template-columns: repeat(36, 20);
-    grid-template-rows: repeat(36, 20);
-  }
+  /* To adjust size of boxes in the grid, adjust width and height and then change row and colum sizes */
+  /* Margins center the board */
+  margin: auto auto;  
+  width: 720px;
+  height: 720px;
+  display: grid;
+  grid-template-columns: repeat(36px, 20px);
+  grid-template-rows: repeat(36px, 20px);
+
+}
 
 .lines {
   border-right: 1px solid grey;
