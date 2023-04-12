@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
     background-color: #000000;
 }
@@ -66,12 +68,14 @@ button {
   width: 300px;
   background: goldenrod;
   padding: 15px 5px;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 200%;
   border: none;
-  border-radius: 2px;
+  border-radius: 90px;
   margin: 10px 0;
 }
+
 .features:hover {
   color: #f6cfa6;
   transition: 0.5s;
