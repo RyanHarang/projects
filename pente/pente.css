@@ -73,6 +73,11 @@ button {
   margin: 10px 0;
 }
 .features:hover {
+  color: #f6cfa6;
+  transition: 0.5s;
+}
+
+.features:active {
   color: #ffffff;
-  transition: 0.3s;
+  transition: 0.5s;
 }
