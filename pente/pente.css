@@ -6,15 +6,28 @@ body {
     width: 720px;
     height: 720px;
     display: grid;
-    grid-template-columns: repeat(36, calc(720px / 36));
-    grid-template-rows: repeat(36, calc(720px / 36));
+    grid-template-columns: repeat(36, 20);
+    grid-template-rows: repeat(36, 20);
   }
 
 .lines {
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
-  background-size: calc(720px / 18) calc(720px / 18);
+  background-size: 40px 40px;
   background-image:
     linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.stone {
+  background: linear-gradient(145deg, #f6cfa6, #000000);
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25), -2px -2px 4px 0 rgba(255, 255, 255, 0.25);
+}
+
+.black {
+  background: linear-gradient(145deg, #f6cfa6, #000000);
+}
+
+.white {
+  background: linear-gradient(145deg, #f6cfa6, #ffffff);
 }
