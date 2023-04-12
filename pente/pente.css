@@ -40,13 +40,6 @@ body {
   background: linear-gradient(145deg, #f6cfa6, #ffffff);
 }
 
-/*
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-*/
 .column {
   float: left;
 }
@@ -58,6 +51,7 @@ body {
 .right {
   width: 30%;
 }
+
 /* CSS for the buttons */
 .menu {
   margin: auto auto;
@@ -83,5 +77,5 @@ button {
 
 .features:active {
   color: #ffffff;
-  transition: 0.5s;
+  transition: 0.2s;
 }
