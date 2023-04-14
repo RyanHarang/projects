@@ -1,12 +1,12 @@
 import java.util.*;
 
 public class pente {
-    public static void main (String args[]) {
+    public static void main(String args[]) {
         board board = new board();
         startGame(board);
     }
 
-    public static void startGame(board board) {
+    private static void startGame(board board) {
         board.clear();
         board.setBoard(9, 9, 1);
         String inp;
