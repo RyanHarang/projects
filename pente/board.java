@@ -1,10 +1,11 @@
 public class board {
     
-    private int[][] board = new int[19][19];
+    int[][] board = new int[19][19];
     //variable to track active player
     Integer activePlayer = -1;
     //variables to track the number of captures each player has made
-    Integer p1Cap, p2Cap = 0;
+    Integer p1Cap = 0;
+    Integer p2Cap = 0;
     //variable to track if the game is over
     boolean complete = false;
 
