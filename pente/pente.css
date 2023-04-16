@@ -6,7 +6,7 @@ body {
 
 /* CSS for the board */
 .grid {
-  /* To adjust size of boxes in the grid, adjust width and height and then change row and colum sizes */
+  /* To adjust size of boxes in the grid, adjust width and height and then change row and column sizes */
   /* Margins center the board */
   margin: auto auto;
   width: 720px;
@@ -14,7 +14,6 @@ body {
   display: grid;
   grid-template-columns: repeat(36px, 20px);
   grid-template-rows: repeat(36px, 20px);
-
 }
 
 .lines {
@@ -28,6 +27,9 @@ body {
 
 /* CSS for the Stones */
 .stone {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
   background: linear-gradient(145deg, #f6cfa6, #000000);
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25), -2px -2px 4px 0 rgba(255, 255, 255, 0.25);
 }
