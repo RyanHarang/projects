@@ -24,6 +24,7 @@
 (define e1 (map list
                 '(x y z + - * cons car cdr nil = equal? < else  add list)
                 (list 2 4 6 + - * cons car cdr '() = equal? < #t    add list)))
+(define e2 (list (list '+ +)))
 
 (define
   ; lookup takes a symbol to search for and en environment to search in
