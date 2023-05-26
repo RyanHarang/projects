@@ -7,11 +7,23 @@
 ;; procedure first style used by racket.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(require rackunit "parse.rkt")
+
 (provide lookup
          evaluate
          special-form?
          evaluate-special-form
          )
+
+(define add
+  (lambda (a b)
+    (cond ((and (number? a) (number? b)) (+ a b))
+          ((and (list? a) (list? b)) (append a b))
+          (else (error "unable to add" a b)))))
+
+(define e1 (map list
+                '(x y z + - * cons car cdr nil = equal? < else  add list)
+                (list 2 4 6 + - * cons car cdr '() = equal? < #t    add list)))
 
 (define
   ; lookup takes a symbol to search for and en environment to search in

@@ -1,0 +1,1 @@
+("8.6" ta6nt ("218b93db4d10734da7c8fb018c0b8df7843cd612" . "7de36d283df38b45ea14b25c1a53fb25191b1529") #"C:\\Users\\ryh11\\OneDrive\\Desktop\\CS\\projects\\interpreter\\parse.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"rackunit" #"main.rkt"))
