@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pente</title>
-    <link rel="stylesheet" href="pente.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="pente.css" />
+  </head>
+  <body>
     <div class="row">
-        <div class="table column left">
-            <div class="grid lines">
-                <div class="stone black" style="grid-column-start: 1; grid-column-end: 1; grid-row-start: 1; grid-row-end: 1;"></div>
-                <!--<div class="stone black"></div>-->
-            </div>
+      <div class="table column left">
+        <div class="grid lines">
+          <div
+            class="stone black"
+            style="
+              grid-column-start: 1;
+              grid-column-end: 1;
+              grid-row-start: 1;
+              grid-row-end: 1;
+            "
+          ></div>
+          <div
+            class="stone white"
+            style="
+              grid-column-start: 4;
+              grid-column-end: 4;
+              grid-row-start: 8;
+              grid-row-end: 8;
+            "
+          ></div>
         </div>
-        <div class="menu column right">
-            <button class="features" onclick="startGame()">START</button>
-        </div>
+      </div>
+      <div class="menu column right">
+        <button class="features" onclick="startGame()">START</button>
+      </div>
     </div>
     <div class="row">
-        <div class="menu column right">
-            <button class="features" onclick="undo()">UNDO</button>
-        </div>
+      <div class="menu column right">
+        <button class="features" onclick="undo()">UNDO</button>
+      </div>
     </div>
     <script src="pente.js"></script>
-</body>
+  </body>
 </html>
