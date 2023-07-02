@@ -1,0 +1,42 @@
+Category: Cards
+Draw
+Discard
+Acquisition
+Exchanges/Trades
+Improvements/Upgrades
+Leveling
+Deletion
+Damage/Health
+Currency
+Production
+Counters
+Countdowns
+Points
+Card Tiers
+
+Category: Worker Placement
+Cost of placement
+Returns based off of location of placement
+Returns off of timing, cost, synergies
+Rate of production
+Type of production
+Placement limits
+Removal
+Upgrades
+Exchanges
+
+Category: War Games
+Assymetric Factions
+Production for territory
+Cost of controlling territory
+NPC Enemies
+Discoveries
+Cost of military
+Map building
+Force movement
+Diplomacy
+Points for combat
+Battle using dice
+Battle using cards
+Battle deterministically
+
