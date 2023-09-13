@@ -6,6 +6,8 @@ public class GridTravel {
     // Assume you can only move right and down
     public static void main(String args[]) {
         System.out.println(calcPaths(15, 15));
+        System.out.println(calcPaths(16, 16));
+        System.out.println(calcPaths(17, 17));
     }
 
     private static int calcPaths(int n, int m) {
