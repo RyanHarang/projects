@@ -24,6 +24,10 @@ public class GridTravel {
         if (memo.containsKey(key)) {
             return memo.get(key);
         }
+        String key2 = m + "," + n;
+        if (memo.containsKey(key2)) {
+            return memo.get(key2);
+        }
 
         memo.put(key, calcPaths(n - 1, m, memo) + calcPaths(n, m - 1, memo));
         return memo.get(key);
