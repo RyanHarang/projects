@@ -17,12 +17,14 @@ public class GridTravel {
         if (n == 0 || m == 0) {
             return 0;
         }
-        String key = n + "," + m;
-        if (memo.containsKey(key))
-            return memo.get(key);
         if (n == 1 || m == 1) {
             return 1;
         }
+        String key = n + "," + m;
+        if (memo.containsKey(key)) {
+            return memo.get(key);
+        }
+
         memo.put(key, calcPaths(n - 1, m, memo) + calcPaths(n, m - 1, memo));
         return memo.get(key);
     }
