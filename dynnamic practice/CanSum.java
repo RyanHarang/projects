@@ -4,6 +4,7 @@ public class CanSum {
 
     public static void main(String args[]) {
         System.out.println(can(6, new int[] { 4, 5 }));
+        System.out.println(can(600, new int[] { 4, 5 }));
     }
 
     private static boolean can(int target, int[] nums) {
