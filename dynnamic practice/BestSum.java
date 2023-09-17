@@ -5,6 +5,7 @@ public class BestSum {
     public static void main(String args[]) {
         System.out.println(best(8, new int[] { 4, 1, 5, 6 }).toString());
         System.out.println(best(600, new int[] { 9, 50, 1 }).toString());
+        System.out.println(best(7, new int[] { 3, 1, 5, 2 }).toString());
     }
 
     private static ArrayList<Integer> best(int target, int[] nums) {
