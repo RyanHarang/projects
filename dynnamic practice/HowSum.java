@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class HowSum {
     public static void main(String args[]) {
         System.out.println(how(6, new int[] { 4, 1 }).toString());
-        System.out.println(how(600, new int[] { 4, 5 }).toString());
+        System.out.println(how(600, new int[] { 9, 50 }).toString());
     }
 
     private static ArrayList<Integer> how(int target, int[] nums) {
